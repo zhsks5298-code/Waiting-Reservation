@@ -16,15 +16,21 @@
 - 개별 매장 입장 시 대기 등록 및 타이머 기반 순번 관리 (`WaitingForm`)
 - 내 순서가 다가오면 알림 팝업으로 안내 (`WaitingAlarm`)
 
-![웨이팅 플로우](docs/images/waiting-flow.jpg)
-> 매장 선택 → 대기 등록 → 내 대기 현황 확인 → 순서가 되면 알림 팝업
+| 1. 매장 선택 | 2. 대기 등록 | 3. 내 대기 현황 | 4. 순서 알림 |
+|---|---|---|---|
+| <img src="docs/images/waiting-01-select.jpg" width="200"/> | <img src="docs/images/waiting-02-register.jpg" width="200"/> | <img src="docs/images/waiting-03-status.jpg" width="200"/> | <img src="docs/images/waiting-04-alarm.jpg" width="200"/> |
 
 ### 2. 예약 시스템
 - 매장 선택 → 날짜/시간/인원 선택 → 정보 입력의 멀티 스텝 플로우 (`ReservationMenu`, `ReservationForm`)
 - 내가 만든 예약 목록 조회 및 취소 (`CheckReservation`)
 
-![예약 플로우](docs/images/reservation-flow.jpg)
-> 매장 선택 → 날짜 선택 → 시간/인원 선택 → 예약자 정보 입력 → 예약 완료 → 내 예약 목록
+| 1. 매장 선택 | 2. 날짜 선택 | 3. 시간/인원 선택 |
+|---|---|---|
+| <img src="docs/images/reservation-01-select.jpg" width="220"/> | <img src="docs/images/reservation-02-date.jpg" width="220"/> | <img src="docs/images/reservation-03-time.jpg" width="220"/> |
+
+| 4. 정보 입력 | 5. 예약 완료 | 6. 내 예약 목록 |
+|---|---|---|
+| <img src="docs/images/reservation-04-info.jpg" width="220"/> | <img src="docs/images/reservation-05-complete.jpg" width="220"/> | <img src="docs/images/reservation-06-list.jpg" width="220"/> |
 
 ---
 
