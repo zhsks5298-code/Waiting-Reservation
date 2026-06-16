@@ -5,8 +5,7 @@
 
 > 캐치테이블의 UX를 참고하여 디자인했습니다.
 
-<!-- 여기에 메인 화면 스크린샷 1장을 넣으면 가장 효과적입니다 -->
-<!-- ![메인 화면](docs/images/main.png) -->
+<img src="docs/images/main.jpg" width="320" alt="메인 화면"/>
 
 ---
 
@@ -17,16 +16,15 @@
 - 개별 매장 입장 시 대기 등록 및 타이머 기반 순번 관리 (`WaitingForm`)
 - 내 순서가 다가오면 알림 팝업으로 안내 (`WaitingAlarm`)
 
+![웨이팅 플로우](docs/images/waiting-flow.jpg)
+> 매장 선택 → 대기 등록 → 내 대기 현황 확인 → 순서가 되면 알림 팝업
+
 ### 2. 예약 시스템
 - 매장 선택 → 날짜/시간/인원 선택 → 정보 입력의 멀티 스텝 플로우 (`ReservationMenu`, `ReservationForm`)
 - 내가 만든 예약 목록 조회 및 취소 (`CheckReservation`)
 
-<!-- 여기에 기능별 스크린샷 2~4장을 GIF 또는 이미지로 추가하면 좋습니다 -->
-<!--
-| 대기열 | 예약 플로우 |
-|---|---|
-| ![웨이팅](docs/images/waiting.png) | ![예약](docs/images/reservation.png) |
--->
+![예약 플로우](docs/images/reservation-flow.jpg)
+> 매장 선택 → 날짜 선택 → 시간/인원 선택 → 예약자 정보 입력 → 예약 완료 → 내 예약 목록
 
 ---
 
@@ -91,14 +89,3 @@ dotnet run --project Waiting_Reservation.csproj
 - 투명 Label + 그라데이션 배경에서 발생한 ClearType 렌더링 깨짐 문제 해결
 - 카드 비율/폰트 크기 일관성 확보를 위한 반복적 UI 디버깅
 
----
-
-## 📷 스크린샷
-
-<!-- 아래 자리에 실제 실행 화면 캡쳐를 추가하세요 (4~6장 권장) -->
-<!--
-![메인](docs/images/main.png)
-![웨이팅 메뉴](docs/images/waiting-menu.png)
-![예약 단계 1](docs/images/reservation-step1.png)
-![내 예약 목록](docs/images/my-reservations.png)
--->
